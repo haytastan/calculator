@@ -1,0 +1,46 @@
+{
+  "name": "react-native-calculator",
+  "version": "1.0.0",
+  "description": "A React Native Web iPhone Calculator ",
+  "keywords": [
+    "typescript",
+    "react native",
+    "jest",
+    "math.js"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "decimal.js": "^10.2.0",
+    "react": "16.13.1",
+    "react-device-detect": "1.13.1",
+    "react-dom": "16.13.1",
+    "react-native-web": "0.13.4",
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "16.13.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.4.7",
+    "@types/react": "16.9.43",
+    "@types/react-dom": "16.9.8",
+    "@types/react-native": "0.63.2",
+    "typescript": "3.9.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
